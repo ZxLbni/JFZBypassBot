@@ -16,7 +16,7 @@ from FZBypass.core.exceptions import DDLException
 
 @Bypass.on_message(command('start'))
 async def start_msg(client, message):
-    await message.reply(f'''<b><i>FZ Bypass Bot!</i></b>
+    await message.reply(f'''<b><i>NOOB Bypass Bot!</i></b>
     
     <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
     
@@ -24,7 +24,7 @@ async def start_msg(client, message):
 ''',
         quote=True,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton('🎓 Dev', url='https://t.me/JAsuran2p0'), InlineKeyboardButton('🔍 Deploy Own', url="https://github.com/")]
+            [InlineKeyboardButton('🎓 Dev', url='https://t.me/l_abani'), InlineKeyboardButton('🔍 Deploy Own', url="https://t.me/NOOBPrivate")]
             ])
     )
     
@@ -219,7 +219,7 @@ async def inline_query(client, query):
         answers.append(InlineQueryResultArticle(
                 title="♻️ Bypass Usage: In Line",
                 input_message_content=InputTextMessageContent(
-                    '''<b><i>FZ Bypass Bot!</i></b>
+                    '''<b><i>NOOB Bypass Bot!</i></b>
     
     <i>A Powerful Elegant Multi Threaded Bot written in Python... which can Bypass Various Shortener Links, Scrape links, and More ... </i>
     
@@ -227,7 +227,7 @@ async def inline_query(client, query):
                 ),
                 description="Bypass via !bp [link]",
                 reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("Asuran Channel", url="https://t.me/JAsuranserials"),
+                        [InlineKeyboardButton("NOOB", url="https://t.me/NOOBPrivates"),
                         InlineKeyboardButton('Try Bypass', switch_inline_query_current_chat="!bp ")]
                 ])
             ))
